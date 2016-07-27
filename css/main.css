@@ -1,0 +1,301 @@
+
+
+
+.grit {
+  	-webkit-mask-image: url(../images/grit.png);
+	-o-mask-image: url(../images/grit.png); 
+	-moz-mask-image: url(../images/grit.png); 
+	mask-image: url(../images/grit.png); 
+}
+
+.mover:hover { 
+     color: lime;
+} 
+
+.hide {
+    display: none;
+}
+
+
+body {color: black;
+	  background-color: burlywood;
+	  font-size: 100%;                      /* 100% 1em = 16px ??? */
+	  font-family: "Copperplate Gothic Bold";
+	  min-height: 100%;
+	  min-width: 100%;
+	  margin: 0;
+      padding: 0; }
+	  
+img {width: 80%;
+     height: auto;}  
+
+	  
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+ 
+#logo{text-align: center;} 
+#imgLeft{float:left;
+         width: 20%;      
+         height: auto;    
+         margin-top: 7px;
+         margin-left: 7px;
+         text-align: left;
+         -webkit-animation-duration: 3s;
+         animation-duration: 3s;
+         animation-name: slideup;}
+         
+#imgRight{float:right;
+          width: 20%;     
+          height: auto;   
+          margin-top: 7px;
+          margin-right: 7px;
+          text-align: right;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          animation-name: slideup;}
+          
+
+
+#ybiyni {
+	font-family: 'Frijole', cursive;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: .2em; 
+    font-size: 4em;}   /*1em*/
+
+
+
+
+  
+    
+
+    
+@keyframes slideup{ from {margin-top: 700px;}
+                    to {margin-top: 7px;} }    
+
+
+
+
+#rainbow{width: 80%;   
+         font-size: 180%;
+            height: auto;        
+	        position: absolute;
+            top: 15em;           
+            left: 6em;}                
+
+
+/*playing the font game */
+
+
+.mover {
+	
+/*	font-family: 'Frijole', cursive;  */
+/*	font-family: 'Cinzel Decorative', cursive; */
+/*	font-family: 'Sancreek', cursive;  */
+/*    font-family: 'Piedra', cursive;  */ 
+/*   font-family: 'Mystery Quest', cursive; */
+    font-family: 'New Rocker', cursive;
+    font-size: 2.64em;
+    text-shadow:
+        2px 2px 0px rgba(115,98,115,0.7);
+    color: #000000;
+    padding: 0px 0px;
+    position: fixed;
+    background: transparent;
+    border: none !important;
+    cursor: url(../images/Planchette_trans.png) 25 35, auto; 
+
+}
+
+
+
+#Abutton {
+	
+    top: 4.4em;    /*297px   .43   3.4em*/
+    left: 1.44em;   /*125px  .19   1.44em*/ 
+    transform: rotate(-33deg);
+}
+
+#Bbutton {
+    top: 3.98em;      /*260px   .38    2.98em*/
+    left: 2.17em;    /*190px    .27    2.17em*/ 
+    transform: rotate(-28deg); 
+}  
+
+#Cbutton {
+    top: 3.63em;    /*230px     .33       2.63em*/
+    left: 2.91em;   /*255px     .36       2.91em*/
+    transform: rotate(-23deg);   
+}  
+
+#Dbutton {
+
+    top: 3.35em;         /*205px   .30  */
+    left: 3.72em;        /*325px    .47 */
+    transform: rotate(-15deg); 
+
+}  
+
+#Ebutton {
+    top: 3.17em;          /*190px     .27  */
+    left: 4.48em;        /*390px       .58 */
+     transform: rotate(-8deg);
+    animation-duration: 1.6s;
+    animation-name: slideup;
+}
+
+#Fbutton {
+    top: 3.09em;             /*185px   .24 */
+    left: 5.24em;           /*455px    .69 */
+    transform: rotate(-4deg); 
+}  
+
+#Gbutton {
+    top: 3.09em;         /*185px      .24 */
+    left: 5.90em;        /*510px      .80  */
+    transform: rotate(1deg); 
+}  
+
+#Hbutton {
+    top: 3.15em;       /*188px     .27   */
+    left: 6.74em;      /*583px     .91  */
+    transform: rotate(7deg); 
+}
+
+#Ibutton {
+    top: 3.30em;       /*200px   .30 */
+    left: 7.67em;      /*665px   1.02 */
+    transform: rotate(13deg);
+    animation-duration: 1.8s;
+    animation-name: slideup;
+}  
+
+#Jbutton {
+    top: 3.48em;      /*215px    .33 */
+    left: 8.05em;     /*692px    1.13 */
+    transform: rotate(17deg);
+ }
+
+#Kbutton {
+    top: 3.71em;        /*235px    .36  */
+    left: 8.64em;      /*740px     1.24 */
+    transform: rotate(20deg); 
+}
+
+#Lbutton {
+    top: 3.99em;               /*260px  .39   */
+    left: 9.40em;             /*805px   1.35 */
+    transform: rotate(25deg);
+    animation-duration: 1s;
+    animation-name: slideup;
+
+}
+
+#Mbutton {
+    top: 4.40em;              /*298px    .42 */
+    left: 10.08em;            /*862px      1.46   */  
+    transform: rotate(31deg); 
+}  
+
+#Nbutton {
+    top: 5.33em;               /*378px    .55 */
+    left: 1.64em;              /*144px    .20 */
+    transform: rotate(-33deg); 
+}  
+
+#Obutton {
+    top: 4.95em;                /*345px   .50  */
+    left: 2.38em;              /*210px   .28 */
+    transform: rotate(-30deg);
+    animation-duration: 1.2s;
+    animation-name: slideup;
+
+}  
+
+#Pbutton {
+    top: 4.60em;            /*315px   .45 */     
+    left: 3.14em;           /*275px    .39*/
+    transform: rotate(-20deg); 
+}  
+
+#Qbutton {
+    top: 4.39em;              /*295px   .44 */
+    left: 3.82em;            /*335px   .47 */
+    transform: rotate(-14deg); 
+}  
+
+#Rbutton {
+    top: 4.21em;          /*280px     .41 */
+    left: 4.63em;        /*405px      .58 */
+    transform: rotate(-8deg); 
+}  
+
+#Sbutton {
+    top: 4.11em;        /*273px    .38 */
+    left: 5.39em;       /*470px    .69 */
+    transform: rotate(-3deg); 
+}  
+
+#Tbutton {
+    top: 4.14em;       /*275px    .39*/
+    left: 6.00em;      /*530px    .70 */
+    transform: rotate(1deg);
+    animation-duration: 2s;
+    animation-name: slideup;
+}
+
+#Ubutton {
+    top: 4.22em;              /*280px   .42   */
+    left: 6.64em;            /*583px    .81   */
+    transform: rotate(8deg); 
+}  
+
+#Vbutton {
+    top: 4.39em;                    /*294px    .45 */
+    left: 7.40em;                  /*648px    .92 */
+    transform: rotate(15deg);
+    animation-duration: 1.4s;
+    animation-name: slideup;
+
+}  
+
+#Wbutton {
+    top: 4.66em;                       /*318px   .48    */
+    left: 8.16em;                     /*713px    1.03   */
+    transform: rotate(21deg); 
+}  
+
+#Xbutton {
+    top: 5.01em;           /*350px  .51   */
+    left: 9.19em;          /*805px   1.14   */
+    transform: rotate(27deg); 
+}  
+
+#Ybutton {
+    top: 5.36em;                 /*382px      .54  */
+    left: 9.82em;                /*857px       1.25      */
+    transform: rotate(33deg); 
+}
+
+#Zbutton {
+    top: 5.72em;                /*415px   .57   */
+    left: 10.48em;               /*912px    1.36 */
+    transform: rotate(36deg); 
+}
+
+
+
+
+
